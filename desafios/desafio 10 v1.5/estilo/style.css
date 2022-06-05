@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fontandroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: rgb(11, 192, 252);
+    
+    border-radius: 10px 10px 10px;
+    
+    
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor0: #c7eaff;
+    --cor1: #55BEFB;
+    --cor2: #0AA3FA;
+    --cor3: #0881C7;
+    --cor4: #054F7A;
+    --cor5: #2A5D7A;
+
+    --fonte-andoid: 'fontandoid';
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    padding: 25px 37px 9px;
+    margin: -8px;
+    color: white;
+    box-shadow: 7px 1px 5px rgb(0 0 0 / 50%);
+}
+
+
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    background-color: white;
+    padding: 20px 20px 20px;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: justify;
+    width: 800px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.596);
+    
+    
+}
+
+main h2 {
+    font-family: var(--fonte-andoid);
+}
+
+.link {
+    font-weight: bold;
+    background-color: lightgreen;
+    color: darkgreen;
+    text-decoration: none;
+    
+}
+
+.link:visited {
+    font-weight: bold;
+    color: green;
+    
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.especial::after {
+    content: '🔗';
+    font-weight: bold;
+    background-color: lightgreen;
+    
+    
+}
+
+.coremdestaque {
+    color: darkgreen;
+    font-weight: bold;
+    
+}
+
+header > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+
+}
+
+.centralizador {
+    text-align: center;
+}
+
+.caixa {
+    margin-right: 30px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.caixa:hover {
+    background-color: rgba(21, 31, 85, 0.453);
+    color: white;
+    padding: 3px 3px 3px;
+    border: 3px;
+    text-decoration: none;
+    
+}
+
+
+
+.video {
+    background-color: darkgreen;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 21px;
+    margin: 19px -20px 26px -20px;
+    
+    
+    
+}
+
+.corforte {
+    background-color: darkgreen;
+    border: 10px 10px 0px 0px;
+    padding: 10px;
+    color: greenyellow;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.ultimoquadro {
+    background-color: lightgreen;
+    margin: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 3px;
+    margin: -8px;
+    
+}
+        
+
