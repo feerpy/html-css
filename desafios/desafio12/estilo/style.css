@@ -28,8 +28,6 @@ header {
     text-align: center;
     padding-top: 10vw;
     padding-bottom: 10vw;
-    
-    
 }
 
 header p {
@@ -70,14 +68,12 @@ section.normal {
 section.normal > p {
     line-height: 2em;
     padding: 2em;
-    
 }
 
 section.imagem {
     padding-bottom: 10vh;
     padding-top: 10vh;
     padding-left: 2em;
-    
 }
 
 section.imagem > p {
@@ -96,12 +92,10 @@ section#img2 {
     background-image: url('../imagens/background002.jpg');
 }
 
-
 footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 3em;
     font-size: 20px;
-    
-}
+    }
