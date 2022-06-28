@@ -76,6 +76,8 @@ header p {
     text-align: center;
     padding: 20px;
     margin: 20px;
+    font-weight: bold;
+    font-family: var(--font-padrao);
 }
 
 main {
